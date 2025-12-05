@@ -15,8 +15,8 @@ const WorkingPolicy = () => {
             <div className="">
               <CiDeliveryTruck className=" w-[50px] h-[50px]" />
             </div>
-            <h2 className="card-title">Booking Pick & Drop</h2>
-            <p>
+            <h2 className="card-title text-secondary">Booking Pick & Drop</h2>
+            <p className="text-accent">
               From personal packages to business shipments — we deliver on time,
               every time.
             </p>
@@ -28,8 +28,8 @@ const WorkingPolicy = () => {
             <div className="">
               <CiCoinInsert className=" w-[50px] h-[50px]" />
             </div>
-            <h2 className="card-title">Cash On Delivery</h2>
-            <p>
+            <h2 className="card-title  text-secondary">Cash On Delivery</h2>
+            <p className="text-accent">
               From personal packages to business shipments — we deliver on time,
               every time.
             </p>
@@ -41,8 +41,8 @@ const WorkingPolicy = () => {
             <div className="">
               <CiVault className=" w-[50px] h-[50px]" />
             </div>
-            <h2 className="card-title">Delivery Hub</h2>
-            <p>
+            <h2 className="card-title  text-secondary">Delivery Hub</h2>
+            <p className="text-accent">
               From personal packages to business shipments — we deliver on time,
               every time.
             </p>
@@ -54,8 +54,8 @@ const WorkingPolicy = () => {
             <div className="">
               <CiBank className=" w-[50px] h-[50px]" />
             </div>
-            <h2 className="card-title">Booking SME & Corporate</h2>
-            <p>
+            <h2 className="card-title  text-secondary">Booking SME & Corporate</h2>
+            <p className="text-accent">
               From personal packages to business shipments — we deliver on time,
               every time.
             </p>

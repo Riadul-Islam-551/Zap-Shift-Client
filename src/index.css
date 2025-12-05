@@ -7,6 +7,10 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
+  --color-primary: #CAEB66;
+  --color-secondary: #03373D;
+  --color-accent: #606060;
+  --color-accent-content: #DADADA;
 }
 
 /* google fonts  */
@@ -20,6 +24,6 @@ body {
 }
 
 
-.color{
+.color {
   color: #f5f5f5;
 }
