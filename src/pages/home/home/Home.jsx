@@ -1,9 +1,10 @@
 import React from 'react'
+import WorkingPolicy from './components/workingPolicy/WorkingPolicy'
 
 const Home = () => {
   return (
     <div>
-      <p>This is home </p>
+      <WorkingPolicy></WorkingPolicy>
     </div>
   )
 }
