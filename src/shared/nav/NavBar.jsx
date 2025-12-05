@@ -1,14 +1,21 @@
 import React from "react";
 import { Link, NavLink } from "react-router";
 import Logo from "../../components/logo/Logo";
+import "./nav.css";
 
 const NavBar = () => {
   const links = (
     <>
       <ul>
-        <NavLink to="/services">Services</NavLink>
-        <NavLink to="/coverage">Coverage</NavLink>
-        <NavLink to="/about">About Us</NavLink>
+        <NavLink className="m-1 p-2 font-bold" to="/services">
+          Services
+        </NavLink>
+        <NavLink className="m-1 p-2 font-bold"  to="/coverage">
+          Coverage
+        </NavLink>
+        <NavLink className="m-1 p-2 font-bold" to="/aboutUS">
+          About Us
+        </NavLink>
       </ul>
     </>
   );
@@ -41,7 +48,7 @@ const NavBar = () => {
               {links}
             </ul>
           </div>
-          <Link to='/' className="">
+          <Link to="/" className="">
             <Logo></Logo>
           </Link>
         </div>

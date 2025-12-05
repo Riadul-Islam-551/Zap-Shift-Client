@@ -3,6 +3,8 @@ import App from "../App";
 import RootLayout from "../layouts/RootLayout";
 import Home from "../pages/home/home/Home";
 import Services from "../pages/home/services/Services";
+import Coverage from "../pages/home/coverage/Coverage";
+import AboutUs from "../pages/home/aboutUs/AboutUs";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ export const router = createBrowserRouter([
       {
         path: "/services",
         element: <Services></Services>,
+      },
+      {
+        path: "/coverage",
+        element: <Coverage></Coverage>,
+      },
+      {
+        path: "/aboutUs",
+        element: <AboutUs></AboutUs>,
       },
     ],
   },
