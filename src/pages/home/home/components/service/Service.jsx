@@ -14,7 +14,7 @@ const Service = () => {
       </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-4 mx-16">
         {/* service - 1  */}
-        <div className="card bg-base-100  shadow-sm">
+        <div className="card bg-base-100  shadow-sm hover:bg-primary transition duration-300 hover:scale-105">
           <figure className="px-10 pt-10">
             <img src={service} alt="Service" className="rounded-xl" />
           </figure>
@@ -30,14 +30,12 @@ const Service = () => {
           </div>
         </div>
         {/* service - 2  */}
-        <div className="card bg-base-100  shadow-sm">
+        <div className="card bg-base-100  shadow-sm hover:bg-primary transition duration-300 hover:scale-105">
           <figure className="px-10 pt-10">
             <img src={service} alt="Service" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-secondary">
-              Nationwide Delivery
-            </h2>
+            <h2 className="card-title text-secondary">Nationwide Delivery</h2>
             <p className="text-accent">
               We deliver parcels within 24–72 hours in Dhaka, Chittagong,
               Sylhet, Khulna, and Rajshahi. Express delivery available in Dhaka
@@ -46,14 +44,12 @@ const Service = () => {
           </div>
         </div>
         {/* service - 3  */}
-        <div className="card bg-base-100 shadow-sm">
+        <div className="card bg-base-100  shadow-sm hover:bg-primary transition duration-300 hover:scale-105">
           <figure className="px-10 pt-10">
             <img src={service} alt="Service" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-secondary">
-              Fulfillment Solution
-            </h2>
+            <h2 className="card-title text-secondary">Fulfillment Solution</h2>
             <p className="text-accent">
               We deliver parcels within 24–72 hours in Dhaka, Chittagong,
               Sylhet, Khulna, and Rajshahi. Express delivery available in Dhaka
@@ -62,14 +58,12 @@ const Service = () => {
           </div>
         </div>
         {/* service - 4  */}
-        <div className="card bg-base-100 shadow-sm">
+        <div className="card bg-base-100  shadow-sm hover:bg-primary transition duration-300 hover:scale-105">
           <figure className="px-10 pt-10">
             <img src={service} alt="Service" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-secondary">
-              Cash on Home Delivery
-            </h2>
+            <h2 className="card-title text-secondary">Cash on Home Delivery</h2>
             <p className="text-accent">
               We deliver parcels within 24–72 hours in Dhaka, Chittagong,
               Sylhet, Khulna, and Rajshahi. Express delivery available in Dhaka
@@ -78,7 +72,7 @@ const Service = () => {
           </div>
         </div>
         {/* service - 5 */}
-        <div className="card bg-base-100 shadow-sm">
+        <div className="card bg-base-100  shadow-sm hover:bg-primary transition duration-300 hover:scale-105">
           <figure className="px-10 pt-10">
             <img src={service} alt="Service" className="rounded-xl" />
           </figure>
@@ -94,14 +88,12 @@ const Service = () => {
           </div>
         </div>
         {/* service - 6  */}
-        <div className="card bg-base-100  shadow-sm">
+        <div className="card bg-base-100  shadow-sm hover:bg-primary transition duration-300 hover:scale-105">
           <figure className="px-10 pt-10">
             <img src={service} alt="Service" className="rounded-xl" />
           </figure>
           <div className="card-body items-center text-center">
-            <h2 className="card-title text-secondary">
-              Parcel Return
-            </h2>
+            <h2 className="card-title text-secondary">Parcel Return</h2>
             <p className="text-accent">
               We deliver parcels within 24–72 hours in Dhaka, Chittagong,
               Sylhet, Khulna, and Rajshahi. Express delivery available in Dhaka
