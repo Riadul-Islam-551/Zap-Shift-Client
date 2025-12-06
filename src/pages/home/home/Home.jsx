@@ -4,6 +4,7 @@ import Service from "./components/service/Service";
 import Banner from "./components/banner/Banner";
 import Brands from "./components/brands/Brands";
 import PolicyDetails from "./components/policyDetails/PolicyDetails";
+import Merchant from "./components/merchant/Merchant";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Service></Service>
       <Brands></Brands>
       <PolicyDetails></PolicyDetails>
+      <Merchant></Merchant>
     </div>
   );
 };
