@@ -9,6 +9,7 @@
   default: true;
   --color-primary: #CAEB66;
   --color-secondary: #03373D;
+  --color-secondary-content: #056873;
   --color-accent: #606060;
   --color-accent-content: #DADADA;
 }
@@ -25,5 +26,5 @@ body {
 
 
 .color {
-  color: #f5f5f5;
+  color: #03373D;
 }
