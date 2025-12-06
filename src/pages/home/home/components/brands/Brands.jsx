@@ -23,7 +23,7 @@ const brandsLogo = [
 const Brands = () => {
   return (
     <div className="mb-12">
-      <h2 className="taxt-sm md:text-lg text-center font-extrabold mb-5 lg:mb-7">
+      <h2 className="taxt-sm md:text-lg text-center text-secondary font-extrabold mb-5 lg:mb-7">
         We've helped thousands of sales teams
       </h2>
       <Swiper

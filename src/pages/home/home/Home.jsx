@@ -3,6 +3,7 @@ import WorkingPolicy from "./components/workingPolicy/WorkingPolicy";
 import Service from "./components/service/Service";
 import Banner from "./components/banner/Banner";
 import Brands from "./components/brands/Brands";
+import PolicyDetails from "./components/policyDetails/PolicyDetails";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <WorkingPolicy></WorkingPolicy>
       <Service></Service>
       <Brands></Brands>
+      <PolicyDetails></PolicyDetails>
     </div>
   );
 };
