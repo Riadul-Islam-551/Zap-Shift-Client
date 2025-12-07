@@ -5,7 +5,7 @@ import deliveryMan from "../../../../../assets/tiny-deliveryman.png";
 
 const PolicyDetails = () => {
   return (
-    <div className="max-w-5xl px-9 grid grid-cols-1 gap-5 mb-16 ">
+    <div className="max-w-5xl mx-auto px-9 grid grid-cols-1 gap-5 mb-16 ">
       <div className="hero bg-white rounded-2xl">
         <div className="hero-content flex-col lg:flex-row">
           <img src={liveTracking} className="max-w-[150px] rounded-xl mr-5" />

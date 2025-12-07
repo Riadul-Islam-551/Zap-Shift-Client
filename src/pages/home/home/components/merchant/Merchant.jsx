@@ -3,7 +3,7 @@ import merchantLocation from "../../../../../assets/location-merchant.png";
 
 const Merchant = () => {
   return (
-    <div className="max-w-5xl md:px-9 mb-16">
+    <div className="max-w-5xl mx-auto md:px-9 mb-16">
       <div className="hero bg-secondary rounded-2xl p-9">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img src={merchantLocation} className="rounded-lg w-[300px]" />
