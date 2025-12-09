@@ -5,6 +5,9 @@ import Home from "../pages/home/home/Home";
 import Services from "../pages/home/services/Services";
 import Coverage from "../pages/home/coverage/Coverage";
 import AboutUs from "../pages/home/aboutUs/AboutUs";
+import Authlayout from "../layouts/Authlayout";
+import Register from "../pages/auth/register/Register";
+import Login from "../pages/auth/login/Login";
 
 export const router = createBrowserRouter([
   {
@@ -27,6 +30,20 @@ export const router = createBrowserRouter([
       {
         path: "/aboutUs",
         element: <AboutUs></AboutUs>,
+      },
+    ],
+  },
+  {
+    path: "/",
+    element: <Authlayout></Authlayout>,
+    children: [
+      {
+        path: "/register",
+        element: <Register></Register>,
+      },
+      {
+        path: "/login",
+        element: <Login></Login>,
       },
     ],
   },
