@@ -2,3 +2,6 @@ ul .active{
     background-color: #CAEB66;
     border-radius: 7px;
 }
+ul li{
+    display: inline-block;
+}
