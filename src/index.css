@@ -7,15 +7,16 @@
 @plugin "daisyui/theme" {
   name: "light";
   default: true;
-  --color-primary: #CAEB66;
-  --color-secondary: #03373D;
+  --color-primary: #caeb66;
+  --color-primary-content: #8FA748;
+  --color-secondary: #03373d;
   --color-secondary-content: #056873;
   --color-accent: #606060;
-  --color-accent-content: #DADADA;
+  --color-accent-content: #dadada;
 }
 
 /* google fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* fonts  */
 body {
@@ -24,7 +25,6 @@ body {
   font-style: normal;
 }
 
-
 .color {
-  color: #03373D;
+  color: #03373d;
 }
