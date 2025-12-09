@@ -18,12 +18,12 @@ const Authlayout = () => {
         </div>
       </div>
       {/* main section  */}
-      <div className="bg-[#FAFDF0]">
-        <main className="max-w-[1200px] mx-auto h-screen  flex justify-center items-center">
-          <div>
+      <div className="bg-[#FAFDF0] ">
+        <main className="max-w-[1200px] px-6  mx-auto h-screen flex flex-col-reverse md:flex-row justify-center items-center">
+          <div className="flex-1">
             <Outlet></Outlet>
           </div>
-          <div>
+          <div className="flex-1 pt-12 md:pt-0">
             <img src={authImage} alt="" />
           </div>
         </main>
