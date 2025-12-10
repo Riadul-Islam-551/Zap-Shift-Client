@@ -80,6 +80,7 @@ const NavBar = () => {
               Login
             </Link>
           )}
+          <Link to="/bearider" className="btn btn-primary text-black border-none ml-3">Be A Rider</Link>
         </div>
       </div>
     </div>
